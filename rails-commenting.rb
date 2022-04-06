@@ -7,7 +7,7 @@
 # FILE: app/controller/blog_posts_controller.rb
 
 # ---1)
-# BlogPostsController is a class that extends the parend class of ApplicationController that was generated from a rails command. This class will handle logic for routes dealing with the blogposts table in the database.
+# BlogPostsController is a class that extends the parent class of ApplicationController that was generated from a rails command. This class will handle logic for routes dealing with the blogposts table in the database.
 class BlogPostsController < ApplicationController
   def index
     # ---2)
