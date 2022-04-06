@@ -63,6 +63,8 @@ const storyTime = arr => {
   })
 }
 
+// Tests passed with green!
+
 // --------------------2) Create a function that takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
 
 // a) Create a test with an expect statement using the variables provided.
@@ -95,6 +97,8 @@ describe('remainders', () => {
 
 const remainders = arr => arr.filter(val => typeof val === 'number').map(val => val % 3)
 
+// Tests passed with green!
+
 // --------------------3) Create a function that takes in an array of numbers and returns the sum of all the numbers cubed.
 
 // a) Create a test with an expect statement using the variables provided.
@@ -125,3 +129,5 @@ describe('cubedSum', () => {
 // we can then return the sum
 
 const cubedSum = arr => arr.map(val => val ** 3).reduce((a, b) => a + b)
+
+// Tests passed with green!
